@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 #main-bg {
   background-image:url('../images/nobody.jpeg');
   background-size: cover;
