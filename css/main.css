@@ -1,4 +1,9 @@
-* {
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+
+body {
   margin: 0;
   padding: 0;
 }
@@ -6,5 +11,21 @@
   background-image:url('../images/nobody.jpeg');
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   height: 100vh;
+  /* Add the blur effect */
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
+  position: relative;
+}
+
+#main-txt {
+  position: absolute;
+  font-size: 50px;
+  color: #fff;
+  left : 30%;
+	top: 30%;
+  width: 50%;
+  line-height: 1.0;
+  
 }
